@@ -24,11 +24,11 @@
                     class="nav-link"><i class="fas fa-user"></i><span>Users</span></a>
             </li>
             <li class="nav-item dropdown">
-                <a href="{{ route('users.index') }}"
+                <a href="{{ route('products.index') }}"
                     class="nav-link"><i class="fas fa-box"></i><span>Products</span></a>
             </li>
             <li class="nav-item dropdown">
-                <a href="{{ route('users.index') }}"
+                <a href="{{ route('categories.index') }}"
                     class="nav-link"><i class="fas fa-boxes-stacked"></i><span>Categories</span></a>
             </li>
     </aside>
